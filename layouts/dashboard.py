@@ -23,9 +23,10 @@ chiffresCard = dbc.Col(
                             ]
                         )
                     ],
-                    style={"margin": "5px"}
+                    style={"margin": "5px"},
+                    color="success",
+                    inverse=True
                 ),
-
             ]
         ),
 
@@ -41,7 +42,9 @@ chiffresCard = dbc.Col(
                             ]
                         )
                     ],
-                    style={"margin": "5px"}
+                    style={"margin": "5px"},
+                    color="primary",
+                    inverse=True
                 )
             ]
         ),
@@ -58,7 +61,9 @@ chiffresCard = dbc.Col(
                             ]
                         )
                     ],
-                    style={"margin": "5px"}
+                    style={"margin": "5px"},
+                    color="warning",
+                    inverse=True
                 )
             ]
         )
@@ -137,7 +142,9 @@ body = dbc.Container(
                                                 ]
                                             )
                                         ],
-                                        style={"margin": "5px"}
+                                        style={"margin": "5px"},
+                                        color="dark",
+                                        inverse=True
                                     ),
                                 ]
                             )
